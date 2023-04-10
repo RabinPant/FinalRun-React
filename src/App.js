@@ -1,11 +1,13 @@
-import logo from "./logo.svg";
+import Personal from "./Components/Personal";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Rabin Pant</h1>
+        <Personal name="rabin" age="24" />
+        <Personal name="Shalini" age="44" />
+        <h1>Rabin</h1>
       </header>
     </div>
   );
